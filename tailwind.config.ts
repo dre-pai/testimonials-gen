@@ -14,6 +14,9 @@ const config: Config = {
         '3xl': '1300px',
         '4xl': '1500px'
       }
+    },
+    fontFamily: {
+      'nunito-sans': ['Nunito Sans', 'sans-serif']
     }
   },
   plugins: []
