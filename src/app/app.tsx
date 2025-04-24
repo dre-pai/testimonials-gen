@@ -5,7 +5,7 @@ import {cx} from 'class-variance-authority'
 
 const Home = () => (
   <div className="p-6 max-w-3xl mx-auto">
-   <img className="max-w-40 mx-auto mb-8" src="/logo.png" />
+   <img className="max-w-40 mx-auto mb-8" src="/tg-logo.png" />
     <h1 className="text-3xl font-bold mb-4">Turn Conversations into Testimonials — Instantly.</h1>
     <p className="text-lg">
       Our Gmail plugin uses AI to transform your client communications into authentic, compelling testimonials. Simply select an email thread with a client, and our plugin will analyze the exchange to generate a testimonial draft. With a single click, you can edit, approve, and send the testimonial to your client for feedback or approval.
@@ -80,8 +80,8 @@ const App = () => {
       </div>
       <footer className="p-4"> 
         <ul className="flex space-x-4 justify-center text-xs text-gray-400 tracking-wide uppercase">
-          <li><Link to="/privacy">Privacy Policy</Link></li>
-          <li><Link to="/terms">Terms of Service</Link></li>
+          <li><a href="https://www.testimonials-gen.com/privacy" target="_blank" >Privacy Policy</a></li>
+          <li><a href="https://www.testimonials-gen.com/terms" target="_blank" >Terms of Service</a></li>
         </ul> 
       </footer>
     </div>
