@@ -1,5 +1,4 @@
-import { ArrowLeft, ChartArea, MessageSquare, Sparkles } from "lucide-react";
-import React from "react";
+import { ArrowLeft } from "lucide-react";
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import {cx} from 'class-variance-authority'
 
@@ -66,7 +65,6 @@ const TermsOfService = () => (
 );
 
 const App = () => {
-
     return(
   <Router>
     <div className="bg-gray-800 font-nunito-sans min-h-screen text-gray-100 flex items-center justify-between flex-col relative">
