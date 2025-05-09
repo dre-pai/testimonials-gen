@@ -90,7 +90,7 @@ const App = () => {
         <ul className="flex space-x-4 justify-center text-xs text-gray-400 tracking-wide uppercase">
           <li><a href="https://www.testimonials-gen.com/privacy" target="_blank" >Privacy Policy</a></li>
           <li><a href="https://www.testimonials-gen.com/terms" target="_blank" >Terms of Service</a></li>
-          <li><a href="https://www.testimonials-gen.com/support" target="_blank" >Support</a></li>
+          <li><Link to='/support'>Support</Link></li>
         </ul> 
       </footer>
     </div>
