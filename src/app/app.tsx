@@ -88,9 +88,9 @@ const App = () => {
       </div>
       <footer className="p-4"> 
         <ul className="flex space-x-4 justify-center text-xs text-gray-400 tracking-wide uppercase">
-          <li><a href="https://www.testimonials-gen.com/privacy" target="_blank" >Privacy Policy</a></li>
-          <li><a href="https://www.testimonials-gen.com/terms" target="_blank" >Terms of Service</a></li>
-          <li><Link to='/support'>Support</Link></li>
+          <li><a href="https://www.testimonials-gen.com/privacy" title='Privacy Policy' target="_blank" >Privacy Policy</a></li>
+          <li><a href="https://www.testimonials-gen.com/terms" title='Terms of Service' target="_blank" >Terms of Service</a></li>
+          <li><Link to='/support' title='Support'>Support</Link></li>
         </ul> 
       </footer>
     </div>
