@@ -38,29 +38,38 @@ const PrivacyPolicy = () => (
 );
 
 const TermsOfService = () => (
-    <div className="px-4 py-10 max-w-3xl mx-auto">
-    <h2 className="text-2xl font-bold mb-4">Terms of Service</h2>
-    <p className="mb-2">Effective Date: April 22, 2025</p>
-    <h3 className="text-xl font-semibold mt-4 mb-2">1. Acceptance of Terms</h3>
-    <p>By using our Gmail add-on, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, do not use the service.</p>
-    <h3 className="text-xl font-semibold mt-4 mb-2">2. Description of Service</h3>
-    <p>The plugin analyzes selected Gmail conversations and uses AI to generate testimonial drafts based on the email content.</p>
-    <h3 className="text-xl font-semibold mt-4 mb-2">3. User Responsibilities</h3>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>Ensure you have client permission before using their communication for testimonial generation.</li>
-      <li>Review all generated content for accuracy and appropriateness before sharing.</li>
-      <li>Do not use the service for illegal, unethical, or abusive purposes.</li>
-    </ul>
-    <h3 className="text-xl font-semibold mt-4 mb-2">4. AI Disclaimer</h3>
-    <p>Generated content may include inaccuracies or biases. Always verify and edit AI-generated text before using it.</p>
-    <h3 className="text-xl font-semibold mt-4 mb-2">5. Intellectual Property</h3>
-    <p>You retain ownership of testimonial drafts generated through your usage. The underlying software and services remain the intellectual property of the developers.</p>
-    <h3 className="text-xl font-semibold mt-4 mb-2">6. Limitations of Liability</h3>
-    <p>We are not liable for any direct, indirect, incidental, or consequential damages resulting from the use or misuse of this plugin.</p>
-    <h3 className="text-xl font-semibold mt-4 mb-2">7. Termination</h3>
-    <p>We reserve the right to terminate or suspend access to the service at our discretion, with or without notice.</p>
-    <h3 className="text-xl font-semibold mt-4 mb-2">8. Modifications</h3>
-    <p>These terms may be updated from time to time. Continued use of the plugin constitutes acceptance of the new terms.</p>
+  <div className="px-4 py-10 max-w-3xl mx-auto">
+  <h2 className="text-2xl font-bold mb-4">Terms of Service</h2>
+  <p className="mb-2">Effective Date: April 22, 2025</p>
+  <h3 className="text-xl font-semibold mt-4 mb-2">1. Acceptance of Terms</h3>
+  <p>By using our Gmail add-on, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, do not use the service.</p>
+  <h3 className="text-xl font-semibold mt-4 mb-2">2. Description of Service</h3>
+  <p>The plugin analyzes selected Gmail conversations and uses AI to generate testimonial drafts based on the email content.</p>
+  <h3 className="text-xl font-semibold mt-4 mb-2">3. User Responsibilities</h3>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Ensure you have client permission before using their communication for testimonial generation.</li>
+    <li>Review all generated content for accuracy and appropriateness before sharing.</li>
+    <li>Do not use the service for illegal, unethical, or abusive purposes.</li>
+  </ul>
+  <h3 className="text-xl font-semibold mt-4 mb-2">4. AI Disclaimer</h3>
+  <p>Generated content may include inaccuracies or biases. Always verify and edit AI-generated text before using it.</p>
+  <h3 className="text-xl font-semibold mt-4 mb-2">5. Intellectual Property</h3>
+  <p>You retain ownership of testimonial drafts generated through your usage. The underlying software and services remain the intellectual property of the developers.</p>
+  <h3 className="text-xl font-semibold mt-4 mb-2">6. Limitations of Liability</h3>
+  <p>We are not liable for any direct, indirect, incidental, or consequential damages resulting from the use or misuse of this plugin.</p>
+  <h3 className="text-xl font-semibold mt-4 mb-2">7. Termination</h3>
+  <p>We reserve the right to terminate or suspend access to the service at our discretion, with or without notice.</p>
+  <h3 className="text-xl font-semibold mt-4 mb-2">8. Modifications</h3>
+  <p>These terms may be updated from time to time. Continued use of the plugin constitutes acceptance of the new terms.</p>
+</div>
+);
+
+const Support = () => (
+  <div className="p-6 max-w-3xl mx-auto">
+    <h2 className="text-2xl font-bold mb-4">Support</h2>
+    <p>If you need help using the Gmail testimonial generation plugin or have encountered an issue, we're here to assist you.</p>
+    <p className="mt-4">Please contact our support team via email: <a className="underline font-semibold mt-2" href="mailto:testimonials.gen@gmail.com">testimonials.gen@gmail.com</a></p>
+    <p className="mt-4">We aim to respond within 1-2 business days. Be sure to include any relevant details (screenshots, browser version, plugin version, etc.) to help us assist you more effectively.</p>
   </div>
 );
 
@@ -74,12 +83,14 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfService />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
       </div>
       <footer className="p-4"> 
         <ul className="flex space-x-4 justify-center text-xs text-gray-400 tracking-wide uppercase">
           <li><a href="https://www.testimonials-gen.com/privacy" target="_blank" >Privacy Policy</a></li>
           <li><a href="https://www.testimonials-gen.com/terms" target="_blank" >Terms of Service</a></li>
+          <li><a href="https://www.testimonials-gen.com/support" target="_blank" >Support</a></li>
         </ul> 
       </footer>
     </div>
