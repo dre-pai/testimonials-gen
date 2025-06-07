@@ -48,7 +48,7 @@ const PrivacyPolicy = () => (
     <p>We may update this policy from time to time. Material changes will be posted on this page with an updated effective date.</p>
 
     <h3 className="text-xl font-semibold mt-4 mb-2">8. Google API Usage Assurance</h3>
-    <p>
+    <p id="training-disclaimer">
       Our Gmail add-on complies with Google API Services User Data Policy, including the Limited Use requirements. We do not use Google Workspace APIs to develop, improve, or train generalized AI and/or machine learning (ML) models. Your data is only used to provide and improve the specific functionality of the add-on and is not shared with or used by any third-party AI training processes.
     </p>
   </div>
