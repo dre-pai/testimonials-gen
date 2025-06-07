@@ -16,26 +16,44 @@ const Home = () => (
 );
 
 const PrivacyPolicy = () => (
-<div className="px-4 py-10 max-w-3xl mx-auto">
+  <div className="px-4 py-10 max-w-3xl mx-auto">
     <h2 className="text-2xl font-bold mb-4">Privacy Policy</h2>
     <p className="mb-2">Effective Date: April 22, 2025</p>
-    <p className="mb-4">This Privacy Policy outlines how our Gmail add-on ("we," "our," or "us") collects, uses, and protects your information when using our service.</p>
+    <p className="mb-4">
+      This Privacy Policy outlines how our Gmail add-on ("we," "our," or "us") collects, uses, and protects your information when using our service.
+    </p>
+
     <h3 className="text-xl font-semibold mt-4 mb-2">1. Data Collection</h3>
     <p>We only access email threads you explicitly select. No other emails or data are accessed or collected.</p>
+
     <h3 className="text-xl font-semibold mt-4 mb-2">2. Data Usage</h3>
     <p>Selected email content is temporarily processed to generate testimonial drafts using the OpenAI API. We do not retain or store email data after processing.</p>
+
     <h3 className="text-xl font-semibold mt-4 mb-2">3. Third-Party Services</h3>
-    <p>We utilize OpenAI's API to process content. By using our service, you also agree to OpenAI's data practices as described in their <a href="https://openai.com/privacy" target="_blank" className="text-blue-500 underline">Privacy Policy</a>.</p>
+    <p>
+      We utilize OpenAI's API to process content. By using our service, you also agree to OpenAI's data practices as described in their{" "}
+      <a href="https://openai.com/privacy" target="_blank" className="text-blue-500 underline">Privacy Policy</a>.
+    </p>
+
     <h3 className="text-xl font-semibold mt-4 mb-2">4. Data Retention</h3>
     <p>No user data is stored or logged. All processing is conducted in-memory and data is discarded immediately afterward.</p>
+
     <h3 className="text-xl font-semibold mt-4 mb-2">5. Data Security</h3>
     <p>We implement reasonable technical measures to safeguard your data during processing. However, no system is entirely secure, and usage is at your own risk.</p>
+
     <h3 className="text-xl font-semibold mt-4 mb-2">6. User Rights</h3>
     <p>You can revoke the plugin's access to your Gmail account anytime via your Google Account settings.</p>
+
     <h3 className="text-xl font-semibold mt-4 mb-2">7. Changes to Policy</h3>
     <p>We may update this policy from time to time. Material changes will be posted on this page with an updated effective date.</p>
+
+    <h3 className="text-xl font-semibold mt-4 mb-2">8. Google API Usage Assurance</h3>
+    <p>
+      Our Gmail add-on complies with Google API Services User Data Policy, including the Limited Use requirements. We do not use Google Workspace APIs to develop, improve, or train generalized AI and/or machine learning (ML) models. Your data is only used to provide and improve the specific functionality of the add-on and is not shared with or used by any third-party AI training processes.
+    </p>
   </div>
 );
+
 
 const TermsOfService = () => (
   <div className="px-4 py-10 max-w-3xl mx-auto">
